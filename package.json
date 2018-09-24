@@ -1,0 +1,18 @@
+{
+  "name": "simple-mochawesome-report-merger",
+  "version": "1.0.0",
+  "description": "Simple Mochawesome Report Merger",
+  "keywords": [],
+  "author": "Andrei Rogobete",
+  "license": "ISC",
+  "scripts": {
+    "test": "jasmine test/MergeReports.spec.js"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "jasmine": "^3.2.0"
+  }
+}

@@ -1,0 +1,97 @@
+{
+    "stats": {
+        "suites": 1,
+        "tests": 2,
+        "passes": 1,
+        "pending": 0,
+        "failures": 1,
+        "start": "2018-08-30T12:38:09.988Z",
+        "end": "2018-08-30T12:38:19.607Z",
+        "duration": 3000,
+        "testsRegistered": 2,
+        "passPercent": 0,
+        "pendingPercent": 0,
+        "other": 0,
+        "hasOther": false,
+        "skipped": 0,
+        "hasSkipped": false,
+        "passPercentClass": "warning",
+        "pendingPercentClass": "danger"
+    },
+    "suites": {
+        "uuid": "f960e239-eceb-4553-af20-58ca207abfc6",
+        "title": "",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [],
+        "suites": [
+            {
+                "uuid": "0f267052-9c4f-41c6-830d-ccae0fd2c654",
+                "title": "Test Suite 3",
+                "fullFile": "",
+                "file": "",
+                "beforeHooks": [],
+                "afterHooks": [],
+                "tests": [
+                    {
+                        "title": "Should pass.",
+                        "fullTitle": "Test Suite 2 - Should pass.",
+                        "duration": 1500,
+                        "state": "passed",
+                        "pass": true,
+                        "fail": false,
+                        "pending": false,
+                        "code": "Class1.method1",
+                        "err": {},
+                        "isRoot": false,
+                        "uuid": "f0662cef-eea6-4e1e-b511-05dd8aa17bf9",
+                        "isHook": false,
+                        "skipped": false
+                    },
+                    {
+                        "title": "Should fail.",
+                        "fullTitle": "Test Suite 3 - Should fail.",
+                        "duration": 1500,
+                        "state": "failed",
+                        "pass": false,
+                        "fail": true,
+                        "pending": false,
+                        "code": "Class1.method1",
+                        "err": {
+                            "message": "TypeError: method2 is not a function",
+                            "estack": "TypeError: method2 is not a function"
+                        },
+                        "isRoot": false,
+                        "uuid": "f0662cef-eea6-4e1e-b511-05dd8aa27bf8",
+                        "isHook": false,
+                        "skipped": false
+                    }
+                ],
+                "suites": [],
+                "passes": [
+                    "f0662cef-eea6-4e1e-b511-05dd8aa17bf9"
+                ],
+                "failures": [
+                    "f0662cef-eea6-4e1e-b511-05dd8aa27bf8"
+                ],
+                "pending": [],
+                "skipped": [],
+                "duration": 3000,
+                "root": false,
+                "rootEmpty": false,
+                "_timeout": 2000
+            }
+        ],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": true,
+        "rootEmpty": true,
+        "_timeout": 2000
+    },
+    "copyrightYear": 2018
+}
