@@ -1,2 +1,2 @@
 # basic-mochawesome-report-merger
-Basic Mochawesome Report Merger
+A simple mochawesome report merger.
